@@ -1,8 +1,8 @@
 function data()
 return {
 	boundingInfo = {
-		bbMax = { 11.5, 1.4348831176758, 4.0103554725647, },
-		bbMin = { -11.5, -1.4918444156647, -0.069020800292492, },
+		bbMax = { 11.3621, 1.4348831176758, 4.0103554725647, },
+		bbMin = { -11.3621, -1.4918444156647, -0.069020800292492, },
 	},
 	collider = {
 		params = {
@@ -239,7 +239,382 @@ return {
             },
 			static = false,
 			visibleFrom = 0,
-			visibleTo = 1314.0427246094,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+        				children = {
+					        {
+						        materials = { "vehicle/train/v188/rumpf_v188-002_rot_a.mtl", },
+						        mesh = "vehicle/train/v188/rumpf_lod1.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/rumpf_v188-002_rot_a.mtl", },
+						        mesh = "vehicle/train/v188/dachaufbau_flach_lod1.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/rumpf_v188-002_rot_a.mtl", },
+						        mesh = "vehicle/train/v188/luefter_seitlich_lod1.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/unterbau_lod1.msh",
+						        name = "Fläche",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/magnet_lod1.msh",
+						        name = "Fläche",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod1.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28132, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod1.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.44074, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod1.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3797, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod1.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2404, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/innen.mtl", },
+						        mesh = "vehicle/train/v188/innen_lod1.msh",
+						        name = "boden",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/train/v188/fenster.mtl", },
+						        mesh = "vehicle/train/v188/glas_lod0.msh",
+						        name = "Fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						        mesh = "vehicle/train/v188/licht_weiss_lod0.msh",
+						        name = "Zylinder",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						        mesh = "vehicle/train/v188/licht_rot_lod0.msh",
+						        name = "Zylinder",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+				        },
+				        name = "RootNode",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.75, 0, 0, 1, },
+			        },
+                    {
+                        children = {
+                            {
+                                materials = { "vehicle/train/v188/rumpf_v188-002_rot_b.mtl", },
+						        mesh = "vehicle/train/v188/rumpf_lod1.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/rumpf_v188-002_rot_b.mtl", },
+						        mesh = "vehicle/train/v188/dachaufbau_flach_lod1.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/rumpf_v188-002_rot_b.mtl", },
+						        mesh = "vehicle/train/v188/luefter_seitlich_lod1.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/unterbau_lod1.msh",
+						        name = "Fläche",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/magnet_lod1.msh",
+						        name = "Fläche",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod1.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28132, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod1.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.44074, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod1.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3797, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod1.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2404, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/innen.mtl", },
+						        mesh = "vehicle/train/v188/innen_lod1.msh",
+						        name = "boden",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/train/v188/fenster.mtl", },
+						        mesh = "vehicle/train/v188/glas_lod0.msh",
+						        name = "Fenster",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						        mesh = "vehicle/train/v188/licht_weiss_lod0.msh",
+						        name = "Zylinder",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						        mesh = "vehicle/train/v188/licht_rot_lod0.msh",
+						        name = "Zylinder",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+				        },
+				        name = "RootNode",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.75, 0, 0, 1, },
+			        },
+                },
+            },
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+        				children = {
+					        {
+						        materials = { "vehicle/train/v188/rumpf_v188-002_rot_a.mtl", },
+						        mesh = "vehicle/train/v188/rumpf_lod2.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/unterbau_lod2.msh",
+						        name = "Fläche",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod2.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28132, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod2.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.44074, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod2.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3797, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod2.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2404, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/innen.mtl", },
+						        mesh = "vehicle/train/v188/innen_lod2.msh",
+						        name = "boden",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+				        },
+				        name = "RootNode",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.75, 0, 0, 1, },
+			        },
+                    {
+                        children = {
+                            {
+                                materials = { "vehicle/train/v188/rumpf_v188-002_rot_b.mtl", },
+						        mesh = "vehicle/train/v188/rumpf_lod2.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/unterbau_lod2.msh",
+						        name = "Fläche",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod2.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28132, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod2.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.44074, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod2.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3797, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod2.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2404, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/innen.mtl", },
+						        mesh = "vehicle/train/v188/innen_lod2.msh",
+						        name = "boden",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+				        },
+				        name = "RootNode",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.75, 0, 0, 1, },
+			        },
+                },
+            },
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+					{
+        				children = {
+					        {
+						        materials = { "vehicle/train/v188/rumpf_v188-002_rot_a.mtl", },
+						        mesh = "vehicle/train/v188/rumpf_lod3.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/unterbau_lod3.msh",
+						        name = "Fläche",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod3.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28132, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod3.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.44074, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod3.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3797, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod3.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2404, 0, 0.57782, 1, },
+					        },
+				        },
+				        name = "RootNode",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.75, 0, 0, 1, },
+			        },
+                    {
+                        children = {
+                            {
+                                materials = { "vehicle/train/v188/rumpf_v188-002_rot_b.mtl", },
+						        mesh = "vehicle/train/v188/rumpf_lod3.msh",
+						        name = "rumpf",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/unterbau_lod3.msh",
+						        name = "Fläche",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod3.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28132, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod3.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.44074, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod3.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3797, 0, 0.57782, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/v188/unterbau.mtl", },
+						        mesh = "vehicle/train/v188/rad_lod3.msh",
+						        name = "rad",
+                                transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.2404, 0, 0.57782, 1, },
+					        },
+				        },
+				        name = "RootNode",
+				        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.75, 0, 0, 1, },
+			        },
+                },
+            },
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 2000,
 		},
 	},
 	metadata = {
