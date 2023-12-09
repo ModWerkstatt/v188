@@ -18,44 +18,26 @@ return {
 					{
         				children = {
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_a.mtl", },
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_a.mtl", },
 						        mesh = "vehicle/train/v188/rumpf_lod0.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_a.mtl", },
-						        mesh = "vehicle/train/v188/dachaufbau_flach_lod0.msh",
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_a.mtl", },
+						        mesh = "vehicle/train/v188/dachaufbau_hoch_lod0.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
-						        mesh = "vehicle/train/v188/dachaufbau-002_lod0.msh",
-						        name = "rumpf",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        },
-					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_a.mtl", },
-						        mesh = "vehicle/train/v188/luefter_seitlich_lod0.msh",
-						        name = "rumpf",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        },
-					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_a.mtl", },
-						        mesh = "vehicle/train/v188/scheibenwischer-002_lod0.msh",
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_a.mtl", },
+						        mesh = "vehicle/train/v188/scheibenwischer-001_lod0.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/v188/unterbau.mtl", },
 						        mesh = "vehicle/train/v188/unterbau_lod0.msh",
-						        name = "Fläche",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        },
-					        {
-						        materials = { "vehicle/train/v188/unterbau.mtl", },
-						        mesh = "vehicle/train/v188/magnet_lod0.msh",
 						        name = "Fläche",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -104,10 +86,10 @@ return {
 								        type = "FILE_REF",
 							        },
 						        },
-						        materials = { "vehicle/train/v188/rumpf_br288-002_a.mtl", },
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_a.mtl", },
 						        mesh = "vehicle/train/v188/rotor_lod0.msh",
 						        name = "rotor1",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9244, 0.002275, 4.1428, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9244, 0.001275, 4.1428, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
@@ -128,44 +110,26 @@ return {
                     {
                         children = {
                             {
-                                materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
+                                materials = { "vehicle/train/v188/rumpf_d311-001_walli_b.mtl", },
 						        mesh = "vehicle/train/v188/rumpf_lod0.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
-						        mesh = "vehicle/train/v188/dachaufbau_flach_lod0.msh",
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_b.mtl", },
+						        mesh = "vehicle/train/v188/dachaufbau_hoch_lod0.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
-						        mesh = "vehicle/train/v188/dachaufbau-002_lod0.msh",
-						        name = "rumpf",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        },
-					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
-						        mesh = "vehicle/train/v188/luefter_seitlich_lod0.msh",
-						        name = "rumpf",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        },
-					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
-						        mesh = "vehicle/train/v188/scheibenwischer-002_lod0.msh",
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_b.mtl", },
+						        mesh = "vehicle/train/v188/scheibenwischer-001_lod0.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/v188/unterbau.mtl", },
 						        mesh = "vehicle/train/v188/unterbau_lod0.msh",
-						        name = "Fläche",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					        },
-					        {
-						        materials = { "vehicle/train/v188/unterbau.mtl", },
-						        mesh = "vehicle/train/v188/magnet_lod0.msh",
 						        name = "Fläche",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -214,10 +178,10 @@ return {
 								        type = "FILE_REF",
 							        },
 						        },
-						        materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_b.mtl", },
 						        mesh = "vehicle/train/v188/rotor_lod0.msh",
 						        name = "rotor1",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9244, 0.002275, 4.1428, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9244, 0.001275, 4.1428, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/emissive/train_all_lights.mtl", },
@@ -247,19 +211,19 @@ return {
 					{
         				children = {
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_a.mtl", },
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_a.mtl", },
 						        mesh = "vehicle/train/v188/rumpf_lod1.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_a.mtl", },
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_a.mtl", },
 						        mesh = "vehicle/train/v188/dachaufbau_flach_lod1.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_a.mtl", },
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_a.mtl", },
 						        mesh = "vehicle/train/v188/luefter_seitlich_lod1.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -331,19 +295,19 @@ return {
                     {
                         children = {
                             {
-                                materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
+                                materials = { "vehicle/train/v188/rumpf_d311-001_walli_b.mtl", },
 						        mesh = "vehicle/train/v188/rumpf_lod1.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_b.mtl", },
 						        mesh = "vehicle/train/v188/dachaufbau_flach_lod1.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_b.mtl", },
 						        mesh = "vehicle/train/v188/luefter_seitlich_lod1.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -424,7 +388,7 @@ return {
 					{
         				children = {
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_a.mtl", },
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_a.mtl", },
 						        mesh = "vehicle/train/v188/rumpf_lod2.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -472,7 +436,7 @@ return {
                     {
                         children = {
                             {
-                                materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
+                                materials = { "vehicle/train/v188/rumpf_d311-001_walli_b.mtl", },
 						        mesh = "vehicle/train/v188/rumpf_lod2.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -529,7 +493,7 @@ return {
 					{
         				children = {
 					        {
-						        materials = { "vehicle/train/v188/rumpf_br288-002_a.mtl", },
+						        materials = { "vehicle/train/v188/rumpf_d311-001_walli_a.mtl", },
 						        mesh = "vehicle/train/v188/rumpf_lod3.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -571,7 +535,7 @@ return {
                     {
                         children = {
                             {
-                                materials = { "vehicle/train/v188/rumpf_br288-002_b.mtl", },
+                                materials = { "vehicle/train/v188/rumpf_d311-001_walli_b.mtl", },
 						        mesh = "vehicle/train/v188/rumpf_lod3.msh",
 						        name = "rumpf",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -619,16 +583,16 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1968,
-			yearTo = 1972,
+			yearFrom = 1941,
+			yearTo = 1950,
 		},
 		cost = {
 			price = -1,
 			priceScale = 1,
 		},
 		description = {
-			name = _("BR288-002_name"),
-            description = _("BR288-002_desc"),
+			name = _("D311-001_name"),
+            description = _("D311_desc"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -666,10 +630,10 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/v188/rad_lod0.msh", },
-					frontForwardParts = { 16, },
-					frontBackwardParts = { 17, },
-					backForwardParts = { 34, },
-                    backBackwardParts = { 33, },
+					frontForwardParts = { 13, },
+					frontBackwardParts = { 14, },
+					backForwardParts = { 28, },
+                    backBackwardParts = { 27, },
 				},
 				{
 					axles = { "vehicle/train/v188/rad_lod0.msh", },
@@ -687,8 +651,8 @@ return {
 			},
 			engines = {
 				{
-					power = 1616,
-					tractiveEffort = 340,
+					power = 1382,
+					tractiveEffort = 300,
 					type = "DIESEL",
 				},
 			},
@@ -711,7 +675,7 @@ return {
                     animation = "idle",
 					crew = true,
                     forward = false,
-					group = 19,
+					group = 16,
                     transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.8, -0.8, 1.57, 1, },
                 },
             },
